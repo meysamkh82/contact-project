@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "yekan";
+  src: url("/public/fonts/yekan.woff") format('woff');
+}
+body{
+  background: #181818 !important;
+  font-family: 'yekan' !important;
+}
+input::-webkit-input-placeholder{
+  color: #5e5e5e !important;
+}
+.text-muted-me{
+  color: rgb(190, 190, 190) !important;
+  font-size: 1.1rem;
+  margin-right: 10px;
+}
+@keyframes loading {
+  to{
+    transform: rotate(360deg);
+  }from{
+    transform: rotate(0);
+    
+  }
+}
+.loading-circle{
+        width: 10rem;
+        height: 10rem;
+        border-radius: 51%;
+        /* border-bottom:3px solid rgb(255, 255, 255); */
+        border-right:5px solid rgba(29, 29, 29, 0);
+        border-top:7px solid #b3b3b3;
+         border-left:0px solid #969696; 
+        /* border-bottom:  5px solid rgb(255, 255, 255);  */
+     
+        animation:loading .8s linear infinite ;
+        /* filter: drop-shadow(0 0px 6px rgba(255, 255, 255, 0.116)); */
+        /* filter: drop-shadow(0 0px 6px rgb(211, 211, 211)); */
+    } 
+.card:hover{
+    border: 1px solid #535353;
+    transform: scale(1.01);
+}
+.card{
+  transition: all .2s;
+}
+/* .bg-title-me{
+  
+  background-color: rgb(32, 32, 32);
+  color:#d8d8d8;
+} */
+
+.list-group-item-custom{
+
+  background-color: #212529 !important;
+
+  font-size: 1.25rem;
+}
