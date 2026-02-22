@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const Url = "http://localhost:3000/contacts";
+// const Url = "http://localhost:3000/contacts";
+const Url = "https://meysamonline.ir/server-contact/contacts"; 
 
 export const getAllContact = ()=>{
     return axios.get(Url)

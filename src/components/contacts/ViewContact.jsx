@@ -46,7 +46,10 @@ const ViewContact = ()=>{
                         <div className='row m-0 ' > 
                             <li className="list-group-item  border-0  py-2 my-1  list-group-item-custom  col-12 col-lg-4 "  >
                                 <div className='d-flex justify-content-center'>
-                                    <img src={`http://localhost:3000/uploads/${viewContact.imageName}`} alt="" className='img-fluid' style={{maxHeight:"200px"}} />
+                                    <img 
+                                    // src={`http://localhost:3000/uploads/${viewContact.imageName}`} 
+                                    src={`https://meysamonline.ir/server-contact/uploads/${viewContact.imageName}`} 
+                                    alt="" className='img-fluid' style={{maxHeight:"200px"}} />
                                 </div>
                             </li>
                             <div className=' col-12 col-lg-8 pe-0  d-flex flex-column justify-content-around' >

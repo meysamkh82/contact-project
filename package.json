@@ -1,5 +1,6 @@
 {
-  "name": "my-react-app",
+  "name": "contact-project",
+  "homepage": "https://github.com/meysamkh82/contact-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist"
   },
   "dependencies": {
     "@lottiefiles/react-lottie-player": "^3.6.0",

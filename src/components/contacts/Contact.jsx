@@ -10,7 +10,8 @@ return(
                     <div className='d-flex justify-content-cetner align-items-center row '>
                         <div className='col-3'>
                              <img 
-                             src={`http://localhost:3000/uploads/${contact.imageName}`}
+                            //  src={`http://localhost:3000/uploads/${contact.imageName}`}
+                             src={`https://meysamonline.ir/server-contact/uploads/${contact.imageName}`}
                              className='img-fluid border-black rounded-3 w-100 '
                               style={{maxWidth:"130px", height:'130px'}} alt="" />
                         </div>

@@ -93,7 +93,10 @@ return(
                                 </div>
                                 <div className="my-2">
                                      <label for="formFile" className="form-label text-secondary">Uplaod Image</label>
-                                    <img src={`http://localhost:3000/uploads/${contactEdit.imageName}`} alt="" className='m-2 mb-0' style={{width:'80px',height:'80px'}}/>
+                                    <img
+                                    //  src={`http://localhost:3000/uploads/${contactEdit.imageName}`} 
+                                     src={`https://meysamonline.ir/server-contact/uploads/${contactEdit.imageName}`} 
+                                    alt="" className='m-2 mb-0' style={{width:'80px',height:'80px'}}/>
                                     <input type="file"
                                     onChange={(event)=>setFieldValue('imageName',event.currentTarget.files[0])}
                                     name='imageName'
